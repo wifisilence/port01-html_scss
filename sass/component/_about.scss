@@ -67,18 +67,18 @@
      line-height: 29px;
     
     &__one{
-         background-image: url(./image/Bitmap-two.png);
+         background-image: url(../image/Bitmap-one.png);
          margin-left: 10px;
         
     }
     &__two{
-        background-image: url(/image/Bitmap-two.png);
+        background-image: url(../image/Bitmap-two.png);
         margin-left: 20px;
         margin-right: 20px;
          @extend .block;
     }
     &__three{
-        background-image: url(/image/Bitmap-three.png);
+        background-image: url(../image/Bitmap-three.png);
          @extend .block;
     }
 }

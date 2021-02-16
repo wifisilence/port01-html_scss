@@ -144,18 +144,18 @@ body {
 }
 
 .about--content__one {
-  background-image: url(./image/Bitmap-two.png);
+  background-image: url(../image/Bitmap-one.png);
   margin-left: 10px;
 }
 
 .about--content__two {
-  background-image: url(/image/Bitmap-two.png);
+  background-image: url(../image/Bitmap-two.png);
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .about--content__three {
-  background-image: url(/image/Bitmap-three.png);
+  background-image: url(../image/Bitmap-three.png);
 }
 
 .services {
