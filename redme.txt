@@ -1,0 +1,34 @@
+$color : red; //переменые
+
+.block { // Вложеность елементов БЕМ желательно максимум два уровня вложений
+    color: aqua;
+    &-element{
+        color: aqua;
+
+        &__modificator{
+            color: aqua;
+        }
+    }
+}
+
+@import './vars' //импорт паршелов
+
+%button {// перенос стилей с ранее использованых
+    background-color: aqua;
+}
+p{
+    @extend .button
+}
+
+
+//подключение миксинов (функций)
+@mixin border($color) { 
+    border:1px solid $color;
+}
+p{
+    @include border()
+}
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Open Sans', sans-serif;

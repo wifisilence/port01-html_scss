@@ -1,0 +1,101 @@
+.footer{
+    display: flex;
+    background-color: #141A20;
+    height: 240px;
+    color: #ffffff;
+    
+}
+
+.foterInf{
+    display: flex;
+  width: 940px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.companyInfo{
+    width:250px ;
+    height: 148px ;
+    border: 1px white;
+    margin-top: 42px;
+    margin-right: 71px;
+
+    h3{
+        margin-top: 0;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    p{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 19px;
+    }
+}
+
+.companyInfo-linksblock {
+    width: 250px;
+    height: 148px;
+    border: white 1px;
+    margin-top: 42px;
+    margin-right: 58px;
+
+    h3{
+        margin-top: 0;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        margin: 0;
+    }
+}
+.companyInfo-links{
+    display: flex;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 25px;
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    
+}
+
+.companyInfo-second{
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+
+.companyInfo-comtacts{
+    margin-top: 42px;
+    margin-bottom: 46px;
+    border: white 1px;
+    width: 148px;
+    height: 150px;
+
+    h2{
+        margin-top: 0;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    p{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 16px;
+    }
+    a{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 16px;
+    }
+}
+
+.companiInjfo--socio{
+    margin-top: 72px ;
+    margin-left: 46px;
+
+    width: 87px;
+    height: 13px;
+}

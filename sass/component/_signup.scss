@@ -1,0 +1,49 @@
+.sign{
+    background: #171819;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    h2{
+        margin: 0 70px 0 378px;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        color: #ffffff;
+    }
+    form{
+        width: 405px;
+        height: 40px;
+        text-align: center;
+    }
+    input{
+        width: 250px;
+        height: 40px;
+        border: none;
+        padding: 0;
+    }
+    button{
+        padding: 0;
+        border: none;
+        width: 150px;
+        height: 40px;
+        border-radius: 0px;
+        font-size: 13px;
+        line-height: 18px;
+        background-color: #00A4E5;
+        color: #ffffff;
+
+        &:hover {
+            background-color: #ffffff;
+            color: #00A4E5;
+
+        }
+
+        &:focus {
+            background-color: #ffffff;
+            color: #00A4E5;
+
+        }
+
+    }
+}

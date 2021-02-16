@@ -1,0 +1,55 @@
+.hero {
+    height: 769px;
+    background-image: url(/image/bg.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: $white;
+
+    &--logo {
+        padding-top: 41px;
+        margin-bottom: 317px;
+    }
+}
+
+.hero--heding {
+    &__title {
+         margin-top: 0;
+         margin-bottom: 5px;
+        
+         font-family: Bebas Neue,
+         cursive;
+         font-size: 60px;
+         line-height: 70px;
+         font-weight: 700;
+    }
+
+    &__subtitle {
+        margin-top: 0;
+        margin-bottom: 200px;
+
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+}
+
+.hero--button {
+    height: 15px;
+    width: auto;
+    margin-bottom: 71px;
+
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: $white;
+
+    background: none;
+    border: none;
+    border-radius: 5px;
+    
+    &:hover,
+    &:focus {
+        color: $accent;
+    }
+}

@@ -1,0 +1,84 @@
+.about--sectiontitle{
+    margin: 0;
+    margin-top: 58px;
+    margin-bottom: 80px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.about--block{
+    display: flex;
+}
+
+.about--article{
+    margin-left: 250px;
+    padding-right: 77px;
+    width: 470px;
+    height: max-content;
+    
+
+    &__title{
+        margin-top: 0;
+        margin-bottom: 30px;
+
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+
+        span{
+            color: $accent;
+        }
+    }
+
+    &__text{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 23px;
+    }
+}
+.block{
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 224px;
+     p {
+         margin-left: 14px;
+         height: 58px;
+         width: 75px;
+     }
+}
+.about--content{
+     display: flex;
+
+     width: 470px;
+     height: 224px;
+     height: max-content;
+     margin-bottom: 0;
+     margin-top: auto;
+     margin-right: 250px;
+
+     color: $white;
+
+     font-weight: 800;
+     font-size: 24px;
+     line-height: 29px;
+    
+    &__one{
+         background-image: url(/image/Bitmap-one.png);
+         margin-left: 10px;
+        
+    }
+    &__two{
+        background-image: url(/image/Bitmap-two.png);
+        margin-left: 20px;
+        margin-right: 20px;
+         @extend .block;
+    }
+    &__three{
+        background-image: url(/image/Bitmap-three.png);
+         @extend .block;
+    }
+}

@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    height: 65px;
+    width: 940px;
+    justify-content: space-between;
+
+    &--logo {
+        margin-top: 24px;
+    }
+
+    &--nav__list {
+        display: flex;
+        margin-top: 24px;
+        list-style: none;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    &--nav__item {
+        margin-left: 45px;
+    }
+}
+
+
+
+
+
+
