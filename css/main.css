@@ -23,7 +23,7 @@ body {
 
 .hero {
   height: 769px;
-  background-image: url(/image/bg.jpg);
+  background-image: url(../image/bg.jpg);
   background-origin: border-box;
   background-repeat: no-repeat;
   text-align: center;
@@ -255,7 +255,7 @@ body {
 }
 
 .touch {
-  background-image: url(/image/bg-get.png);
+  background-image: url(../image/bg-get.png);
   background-origin: border-box;
   background-repeat: no-repeat;
   width: 1440px;
