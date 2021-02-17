@@ -229,7 +229,7 @@ body {
   max-height: -webkit-max-content;
   max-height: -moz-max-content;
   max-height: max-content;
-  border: 1px solid black;
+  border: 1px solid #E6E6E6;
   list-style: none;
 }
 
@@ -310,12 +310,15 @@ body {
 }
 
 .sign form {
+  position: relative;
   width: 405px;
   height: 40px;
   text-align: center;
 }
 
 .sign input {
+  position: absolute;
+  right: 50%;
   width: 250px;
   height: 40px;
   border: none;
@@ -323,33 +326,29 @@ body {
 }
 
 .sign button {
+  position: absolute;
   padding: 0;
-  border: none;
   width: 150px;
   height: 40px;
+  border: none;
   border-radius: 0px;
   font-size: 13px;
   line-height: 18px;
-  background-color: #00A4E5;
-  color: #ffffff;
+  color: #fff;
+  background-color: #008b8b;
 }
 
-.sign button:hover {
-  background-color: #ffffff;
-  color: #00A4E5;
-}
-
-.sign button:focus {
-  background-color: #ffffff;
-  color: #00A4E5;
+.sign button:hover, .sign button:focus {
+  background-color: #fff;
+  color: #008b8b;
 }
 
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #141A20;
   height: 240px;
+  background-color: #141A20;
   color: #ffffff;
 }
 
@@ -412,6 +411,11 @@ body {
 .companyInfo-links ul {
   list-style: none;
   padding: 0;
+  color: #fff;
+}
+
+.companyInfo-links a {
+  color: inherit;
 }
 
 .companyInfo-second {
@@ -434,13 +438,14 @@ body {
   line-height: 15px;
 }
 
-.companyInfo-comtacts p {
+.companyInfo-comtacts address {
   font-weight: normal;
   font-size: 11px;
   line-height: 16px;
 }
 
 .companyInfo-comtacts a {
+  color: #fff;
   font-weight: normal;
   font-size: 11px;
   line-height: 16px;
@@ -451,6 +456,7 @@ body {
   margin-left: 46px;
   width: 87px;
   height: 13px;
+  color: #fff;
 }
 
 .foot {

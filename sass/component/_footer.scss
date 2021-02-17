@@ -1,18 +1,21 @@
 .footer{
     display: flex;
-    background-color: #141A20;
+
     height: 240px;
+
+    background-color: #141A20;
     color: #ffffff;
     
 }
 
 .foterInf{
-    display: flex;
+  display: flex;
   width: 940px;
   margin: auto;
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .companyInfo{
     width:250px ;
     height: 148px ;
@@ -57,8 +60,11 @@
     ul{
         list-style: none;
         padding: 0;
+        color: $white;
     }
-    
+    a{
+        color: inherit;
+    }
 }
 
 .companyInfo-second{
@@ -73,6 +79,7 @@
     border: white 1px;
     width: 148px;
     height: 150px;
+    
 
     h2{
         margin-top: 0;
@@ -80,12 +87,13 @@
         font-size: 11px;
         line-height: 15px;
     }
-    p{
+    address {
         font-weight: normal;
         font-size: 11px;
         line-height: 16px;
     }
     a{
+        color: $white;
         font-weight: normal;
         font-size: 11px;
         line-height: 16px;
@@ -98,4 +106,5 @@
 
     width: 87px;
     height: 13px;
+
 }
