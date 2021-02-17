@@ -1,23 +1,27 @@
-.sign{
+.sign {
     background: #171819;
     display: flex;
     align-items: center;
     text-align: center;
     height: 100px;
-    h2{
+
+    h2 {
         margin: 0 70px 0 378px;
         font-weight: bold;
         font-size: 22px;
         line-height: 30px;
         color: #ffffff;
     }
-    form{
+
+    form {
         position: relative;
         width: 405px;
         height: 40px;
         text-align: center;
     }
-    input{
+
+    input {
+
         position: absolute;
         right: 50%;
 
@@ -26,27 +30,28 @@
         border: none;
         padding: 0;
     }
-    button{
+
+    button {
         position: absolute;
         padding: 0;
-         width: 150px;
-         height: 40px;
+        width: 150px;
+        height: 40px;
 
-         border: none;
-         border-radius: 0px;
+        border: none;
+        border-radius: 0px;
 
-         font-size: 13px;
-         line-height: 18px;
-         color: $white;
+        font-size: 13px;
+        line-height: 18px;
+        color: $white;
 
-         background-color: $accent;
+        background-color: $accent;
 
 
-         &:hover,
-         &:focus {
-             background-color: $white;
-             color: $accent;
-         }
+        &:hover,
+        &:focus {
+            background-color: $white;
+            color: $accent;
+        }
 
     }
 }
