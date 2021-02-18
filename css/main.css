@@ -71,8 +71,8 @@ body {
 
 .about--sectiontitle {
   margin: 0;
-  margin-top: 58px;
-  margin-bottom: 80px;
+  padding-top: 58px;
+  padding-bottom: 80px;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
@@ -158,10 +158,6 @@ body {
   background-image: url(../image/Bitmap-three.png);
 }
 
-.services {
-  margin-top: 118px;
-}
-
 .servis--list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,6 +169,7 @@ body {
 }
 
 .sirvice-top {
+  padding-top: 118px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,6 +179,7 @@ body {
 }
 
 .servis--cards {
+  padding-bottom: 120px;
   width: 940px;
   margin-left: 250px;
   margin-right: 250px;
@@ -261,7 +259,6 @@ body {
   width: 1440px;
   height: 499px;
   text-align: center;
-  margin-top: 115px;
 }
 
 .get--heding {
@@ -297,12 +294,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100px;
 }
 
 .sign h2 {
-  margin: 0 70px 0 378px;
+  margin: 0;
   font-weight: bold;
   font-size: 22px;
   line-height: 30px;
@@ -317,8 +316,8 @@ body {
 }
 
 .sign input {
+  left: 60%;
   position: absolute;
-  right: 50%;
   width: 250px;
   height: 40px;
   border: none;
@@ -327,6 +326,7 @@ body {
 
 .sign button {
   position: absolute;
+  right: 40%;
   padding: 0;
   width: 150px;
   height: 40px;
@@ -490,6 +490,7 @@ body {
 }
 
 .header--nav__list {
+  padding-left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -500,7 +501,7 @@ body {
   line-height: 16px;
 }
 
-.header--nav__item {
+.header--nav__item:not(:first-child) {
   margin-left: 45px;
 }
 /*# sourceMappingURL=main.css.map */

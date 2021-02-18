@@ -1,12 +1,13 @@
 .sign {
     background: #171819;
     display: flex;
+
     align-items: center;
-    text-align: center;
+    justify-content: center;
     height: 100px;
 
     h2 {
-        margin: 0 70px 0 378px;
+        margin: 0;
         font-weight: bold;
         font-size: 22px;
         line-height: 30px;
@@ -21,9 +22,10 @@
     }
 
     input {
+        left: 60%;
 
         position: absolute;
-        right: 50%;
+       
 
         width: 250px;
         height: 40px;
@@ -33,6 +35,8 @@
 
     button {
         position: absolute;
+       right: 40%;
+
         padding: 0;
         width: 150px;
         height: 40px;
